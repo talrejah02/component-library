@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="badge.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <section class="header-logo">
+         <span class="heading">Droid-Ui</span>
+        </section>
+      <section class="nav-right">
+         <a href="" class="nav-link">Home</a>
+         <a href="./components/Avatar/avatar.html" class="nav-link">Docs</a>
+         <a href="" class="nav-link">Github</a>
+     </section>
+  </nav>
+      <section class="component">
+          <aside class="drawer">
+              <section class="drawer-header">
+                <span class="header-title">Get Started</span>
+                <!-- <span class="header-subtitle"></span> -->
+              </section>
+              <hr class="list-divider">
+              <section class="drawer-content">
+               <nav class="content-list">
+                   <a class="list-item">Home</a>
+                   <a class="list-item">Colors</a>
+                   <a class="list-item">Typography</a>
+                   <span class="header-subtitle">Components</span>
+                   <hr class="list-divider">
+                   <a class="list-item">Avatar</a>
+                   <a class="list-item">Alert</a>
+                   <a class="list-item">Badge</a>
+                   <a class="list-item">Button</a>
+                   <a class="list-item">Card</a>
+                   <a class="list-item">Image</a>   
+                   <a class="list-item">Input</a>   
+                   <a class="list-item">List</a>   
+                   <a class="list-item">Toast</a>   
+                  </nav>
+          </aside>
+            <section class="doc-container">
+             <section class="description-area">
+                <span class="description-heading">Badge</span>
+                <span class="description">Badges are small circles, positioned either at top-right or bottom-right of the parent component. Badge can be used to display numbers, online / offline status, depending on where they are used.</span>
+            </section>
+            <section class="description-area">
+               <span class="description-heading">Importing</span>
+               <span class="description">Use classes by adding stylesheet using link below</span>
+            </section>
+            <section class="code">
+                <pre>
+                    <code class="html">
+  &lt;link rel="stylesheet" href="https://droid.netlify.app//components/Badge/badge.css"/&gt;
+                    </code>
+                </pre>
+            </section>
+
+            <section class="description-area">
+                <span class="description-heading">Profile badge</span>
+                <span class="description">Profile Badge is used to show the current status of a user.</span>
+                <span class="description">It can be used with 3 variants : online | offline | dnd</span>
+            </section>
+            <section class="preview-container">
+                <section class="badge">
+                    <img src="../../Assets/images/avatar2.jpg" class="avatar " />
+                    <section class="online" ></section>
+                </section>
+                <section class="badge">
+                    <img src="../../Assets/images/avatar2.jpg" class="avatar " />
+                    <section class="offline" ></section>
+                </section>
+                <section class="badge">
+                    <img src="../../Assets/images/avatar2.jpg" class="avatar " />
+                    <section class="dnd" ></section>
+                </section>
+            </section>
+                <section class="code">
+                    <pre>
+                        <code class="html">
+            &lt;section class="badge">
+                &lt;img src="../../Assets/images/avatar2.jpg" class="avatar "/&gt;
+                &lt;section class="online" >&lt;/section&gt;
+            &lt;section/&gt;
+
+            &lt;section class="badge">
+                &lt;img src="../../Assets/images/avatar2.jpg" class="avatar "/&gt;
+                &lt;section class="offline" >&lt;/section&gt;
+            &lt;section/&gt;
+
+            &lt;section class="badge">
+                 &lt;img src="../../Assets/images/avatar2.jpg" class="avatar "/&gt;
+                 &lt;section class="dnd" >&lt;/section&gt;
+            &lt;section/&gt;
+
+                        </code>
+                    </pre>
+                </section>
+              
+              <section class="description-area">
+                <span class="description-heading">Number badge</span>
+                <span class="description">Number Badge is used to show the no. of items present in the parent component using number class.</span>
+              </section> 
+              <section class="preview-container">
+                <section class="badge">
+                    <img src="../../Assets/svg/notification.svg" class="avatar " />
+                    <section class="number" >4</section>
+                </section>
+                <section class="badge">
+                    <img src="../../Assets/svg/message.svg" class="avatar " />
+                    <section class="number" >5</section>
+                </section>
+                <section class="badge">
+                    <img src="../../Assets/svg/cart.svg" class="avatar " />
+                    <section class="number" >6</section>
+                </section>
+              </section>
+              <section class="code">
+                <pre>
+                    <code class="html">
+
+            &lt;section class="badge">
+                &lt;img src="../../Assets/svg/notification.svg" class="avatar "/&gt;
+                &lt;section class="number" >4 &lt;/section&gt;
+            &lt;section/&gt;
+
+            &lt;section class="badge">
+                &lt;img src="../../Assets/svg/message.svg" class="avatar "/&gt;
+                &lt;section class="number" >5 &lt;/section&gt;
+            &lt;section/&gt;
+                    
+            &lt;section class="badge">
+                &lt;img src="../../Assets/svg/cart.svg" class="avatar "/&gt;
+                &lt;section class="number" >6 &lt;/section&gt;
+            &lt;section/&gt;  
+
+                    </code>
+                </pre>
+            </section>
+      </section>
+        <script>hljs.highlightAll();</script>
+</body>
+</html>
