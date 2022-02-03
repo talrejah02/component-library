@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
+
+:root {
+    --primary: #071925;
+    --secondary: #f2f2f2;
+    --accent: #805de2;
+    --font-primary: #636161;
+    --font-secondary: #f5f5f5;
+    --card-bg:#ffff;
+    --box-shadow: #636161 0px 0px 3px 1px;
+    --btn-hover:#1D689A20;
+    --alert-primary: #7275f2;
+    --alert-error: #f4554a;
+    --alert-success: #5db661;
+    --alert-warning: #fea219;
+  }
+
+
+  ::-webkit-scrollbar {
+    width: 4px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #E5E5E5;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 30px;
+    transition: 0.3s ease-in-out;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #022143;
+}
