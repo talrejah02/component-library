@@ -1,15 +1,19 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700;800;900&display=swap');
 
 :root {
+    box-sizing: border-box;
     --primary: #071925;
     --secondary: #f2f2f2;
+    --secondary-hover:#dddbdb;
     --accent: #805de2;
+    --accent-hover:#683fda;
     --font-primary: #636161;
     --font-secondary: #f5f5f5;
     --card-bg:#ffff;
     --box-shadow: #636161 0px 0px 3px 1px;
     --btn-hover:#1D689A20;
     --alert-primary: #7275f2;
+   --alert-primary-hover:#5e60f5;
     --alert-error: #f4554a;
     --alert-success: #5db661;
     --alert-warning: #fea219;
@@ -18,6 +22,10 @@
     --badge-dnd:grey;
   }
 
+a{
+      text-decoration: none;
+      color: var(--secondary);
+  }
 ::-webkit-scrollbar {
     width: 4px;
 }
