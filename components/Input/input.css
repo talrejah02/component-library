@@ -2,3 +2,60 @@
 @import url(../common-css/drawer.css);
 @import url(../common-css/container.css);
 @import url(../../style.css);
+
+.input{
+ border: none;
+ padding: 0.9rem;
+ border: 1px solid var(--primary);
+ border-radius:30px;
+ font-size: 0.8rem;
+ min-width: 13rem;
+ margin: 0.5rem;
+ transition: 0.3s;
+}
+.input:focus{
+    outline:none;
+    box-shadow: 0px 0px 9px 2px rgb(216, 211, 211);
+   
+}
+.input-success{
+ border-color:var(--alert-success) ;
+
+}
+.input-success:focus{
+ box-shadow: 0px 0px 7px 1px var(--alert-success);
+    
+}
+.input-warning{
+ border-color: var(--alert-warning);
+}
+.input-warning:focus{
+ box-shadow: 0px 0px 7px 1px var(--alert-warning);
+
+}
+.input-danger{
+ border-color: var(--alert-error);
+}
+.input-danger:focus{
+ box-shadow: 0px 0px 7px 1px var(--alert-error);
+
+}
+.inline-wrapper{
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    /* align-items: center; */
+}
+.inline{
+    margin-left: 1.5rem;
+    font-size: 0.8rem;
+}
+.inline-success{
+    color:var(--alert-success);
+}
+.inline-danger{
+    color:var(--alert-error);
+}
+.inline-warning{
+    color:var(--alert-warning);
+}
