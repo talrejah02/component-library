@@ -14,6 +14,7 @@ body {
 /* ................||nav bar.................... */
 
 .nav {
+  width: 98.7%;
   position: relative;
   display: flex;
   flex-wrap: wrap;
