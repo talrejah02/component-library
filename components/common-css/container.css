@@ -53,8 +53,10 @@ margin-bottom: 0;
 background-color: var(--primary);
 font-size: 0.8rem;
 border-radius: 7px;
-padding-left: 1rem !important; 
 width: 70%;
+}
+.hljs{
+ padding-left: 1rem;
 }
 
 .description-list{
