@@ -1,0 +1,63 @@
+
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+
+.preview-container{
+    font-size: 1.2rem;
+}
+.h1{
+ font-size: 2.125rem;
+}
+.h2{
+    font-size: 1.875rem;
+}
+.h3{
+    font-size: 1.5rem;
+}
+.h4{
+    font-size: 1.25rem;
+}
+.h5{
+    font-size: 1.125rem;
+}
+.h6{
+    font-size: 1rem;
+}
+
+
+.text-Gray{
+    color:gray;
+}
+
+.text-lightGray{
+    color: rgb(167, 165, 165);
+}
+
+.text-mediumGray{
+    color: rgb(88, 87, 87);
+}
+
+.text-darkGray{
+    color:rgb(59, 59, 59)
+}
+
+.f1{
+    font-size: 3rem;
+}
+.f2{
+    font-size: 2rem;
+}
+.f3{
+    font-size: 1.5rem;
+}
+.f4{
+    font-size: 1rem;
+}
+.f5{
+    font-size: 0.5rem;
+}
+.text-center{
+    text-align: center;
+}
