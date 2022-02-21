@@ -17,8 +17,10 @@
     --alert-error: #f4554a;
     --alert-success: #5db661;
     --alert-warning: #fea219;
-}
-
+    --badge-online:green;
+    --badge-offline:red;
+    --badge-dnd:grey;
+  }
 
 ::-webkit-scrollbar {
     width: 4px;
