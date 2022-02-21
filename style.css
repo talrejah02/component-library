@@ -2,14 +2,6 @@
 @import url(./docs-css/typography.css);
 @import url(./docs-css/reset.css);
 
-
-body {
-  margin: 0;
-  box-sizing: border-box;
-  background-color: var(--secondary);
-  font-size: 10px;
-  
-}
  
 /* ................||nav bar.................... */
 
