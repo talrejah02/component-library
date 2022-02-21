@@ -4,7 +4,9 @@
 
  
 /* ................||nav bar.................... */
-
+*{
+  margin:0;
+}
 .nav {
   width: 98.7%;
   position: relative;
