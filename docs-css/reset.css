@@ -50,3 +50,6 @@ a{
 ::-webkit-scrollbar-thumb:hover {
     background: #022143;
 }
+button:hover{
+    cursor: pointer;
+}
