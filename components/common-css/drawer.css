@@ -1,65 +1,73 @@
-*{
+* {
     font-family: 'Rubik', sans-serif;
 }
 
-.drawer{
+.drawer {
     display: flex;
     flex-direction: column;
     width: 19rem;
     border-right: 1px solid #00000020;
-    overflow-x: hidden; 
+    overflow-x: hidden;
 }
-.drawer-header{
+
+.drawer-header {
     display: flex;
     flex-direction: column;
-    padding: 1rem 0.5rem 0rem 0rem ;
-    
+    padding: 1rem 0.5rem 0rem 0rem;
+
 }
-.header-title{
+
+.header-title {
     padding-left: 1.2rem;
     color: var(--primary);
     font-size: 1.3rem;
     font-weight: 500;
 }
-.header-subtitle{
-    padding: 1rem 0.5rem 0rem 1.2rem ;
+
+.header-subtitle {
+    padding: 1rem 0.5rem 0rem 1.2rem;
     font-size: 1.1rem;
     font-weight: 500;
     color: var(--primary);
 }
-.drawer-content{
+
+.drawer-content {
     height: 100%;
-   
+
 }
-.content-list{
+
+.content-list {
     display: flex;
     flex-direction: column;
     height: 100%;
     width: 100%;
-   
+
 }
-.list-item{
+
+.list-item {
     display: flex;
     align-items: center;
     font-weight: 400;
     font-size: 0.8rem;
     color: var(--primary);
     margin: 0.5rem;
-    margin-left:0;
+    margin-left: 0;
     margin-right: 0;
     padding: 0.7rem 0.4rem 0.7rem 2rem;
     transition: 0.2s ease-in-out;
 
 }
-.list-item:hover{
+
+.list-item:hover {
     background-color: var(--btn-hover);
     color: var(--primary);
-    
+
 }
-.list-divider{
+
+.list-divider {
     margin: 0.3rem 0rem 0.1rem 0rem;
     border: none;
     border-bottom-width: 1px;
     border-bottom-style: solid;
     border-bottom-color: #00000020;
-  }
+}
