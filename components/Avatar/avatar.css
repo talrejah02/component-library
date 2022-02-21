@@ -1,0 +1,28 @@
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+
+body{
+    margin: 0;
+}
+
+
+.avatar{
+    width:3rem;
+    border-radius: 50%;
+    margin: 0.5rem;  
+}
+.sm{
+    width:3rem;
+}
+.md{
+    width:5rem;
+}
+.lg{
+    width:7rem;
+}
+
+.square{
+    border-radius: 10px;
+}
