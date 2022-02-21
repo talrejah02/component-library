@@ -3,13 +3,12 @@
 @import url(../common-css/container.css);
 @import url(../../style.css);
 
-body{
-    margin: 0;
+.img {
+    height: 150px;
+    width: 150px;
 }
 
-
-.avatar{
-    width:3rem;
+.round {
     border-radius: 50%;
     margin: 0.5rem;  
 }
@@ -25,4 +24,10 @@ body{
 
 .square{
     border-radius: 10px;
+}
+
+.responsive {
+    width: 60%;
+    height: auto;
+    object-fit: cover;
 }
