@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="button.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
+</head>
+<body>
+    <nav class="nav">
+        <section class="header-logo">
+         <span class="heading">Droid-Ui</span>
+        </section>
+      <section class="nav-right">
+         <a href="" class="nav-link">Home</a>
+         <a href="./components/Avatar/avatar.html" class="nav-link">Docs</a>
+         <a href="" class="nav-link">Github</a>
+     </section>
+  </nav>
+      <section class="component">
+          <aside class="drawer">
+              <section class="drawer-header">
+                <span class="header-title">Get Started</span>
+                <!-- <span class="header-subtitle"></span> -->
+              </section>
+              <hr class="list-divider">
+              <section class="drawer-content">
+               <nav class="content-list">
+                <a href="../../index.html" class="list-item">Home</a>
+                <a class="list-item" href="../typography/typography.html">Typography</a>
+                <span class="header-subtitle">Components</span>
+                <hr class="list-divider">
+                <a href="../Avatar/avatar.html" class="list-item">Avatar</a>
+                <a href="../Alert/alert.html" class="list-item">Alert</a>
+                <a href="../Badge/badge.html" class="list-item">Badge</a>
+                <a href="../Button/button.html" class="list-item">Button</a>
+                <a href="../card/card.html" class="list-item">Card</a>
+                <a href="../image/image.html" class="list-item">Image</a>
+                <a href="../Input/Input.html" class="list-item">Input</a>
+                <a href="../Input/navigation.html" class="list-item">Navigation</a>
+                <a href="../Input/snackbar.html" class="list-item">Snackbar</a> 
+                  </nav>
+          </aside>
+            <section class="doc-container">
+             <section class="description-area">
+                <span class="description-heading">Button</span>
+                <span class="description">Buttons are the soul of an interactive Web Application. Buttons allow users to take actions, and make choices, with a single tap.</span>
+            </section>
+            <section class="description-area">
+               <span class="description-heading">Importing</span>
+               <span class="description">Use classes by adding stylesheet using link below</span>
+            </section>
+            <section class="code">
+                <pre>
+                    <code class="html">
+  &lt;link rel="stylesheet" href="https://droid.netlify.app//components/Button/button.css"/&gt;
+                    </code>
+                </pre>
+            </section>
+            <section class="description-area">
+                <span class="description"> <span class="inverted">Button</span> component has 6 classes</span>
+                <ul class="description-list">
+                  <li class="description-list-item"><span class="inverted">Btn</span>: A button default with default color</li>
+                  <li class="description-list-item"><span class="inverted">Btn-primary</span>: A button with primary color</li>
+                  <li class="description-list-item"><span class="inverted">Btn-secondary</span>: A secondary button with secondary color</li>
+                </ul>
+            </section>
+            <section class="preview-container">
+               <button class="btn ">default</button>
+               <button class="btn btn-primary">primary</button>
+               <button class="btn btn-secondary">secondary</button>
+              </section>
+              <section class="code">
+                <pre>
+                    <code class="html">
+    &lt;button class="btn ">default&lt;/button&gt;
+    &lt;button class="btn btn-primary">primary&lt;/button&gt;
+    &lt;button class="btn btn-secondary">secondary&lt;/button&gt;
+                    </code>
+                </pre>
+            </section>
+              <section class="description-area">
+                <span class="description-heading">Button Link</span>
+                <ul class="description-list">
+                    <li class="description-list-item"> <span class="inverted">Btn-link</span>: A button default with link</li>
+                  </ul>
+                <section class="preview-container">
+                    <button class="btn btn-link"><a href="link">Link</a></button>
+                </section>
+
+                <section class="code">
+                    <pre>
+                        <code class="html">
+    &lt;button class="btn btn-link">
+        &lt;a href="link"&gt;
+        Link
+        &lt;/a&gt;
+    &lt;/button&gt;
+                        </code>
+                    </pre>
+                </section>
+
+                <span class="description-heading">Icon And floating button</span>
+
+                <ul class="description-list">
+                    <li class="description-list-item"><span class="inverted">Btn-icon</span>: A button with icon</li>
+                    <li class="description-list-item"><span class="inverted">Btn-float</span>: A button for floating action</li>
+                  </ul>
+                
+                <section class="preview-container">
+                    <button class="btn btn-icon">
+                        <img src="../../Assets/svg/print-btn.svg"/>
+                        print
+                    </button>
+                    <button class="btn btn-float">
+                        <img src="../../Assets/svg/plus-btn.svg"/>
+                    </button>
+                </section>
+                <section class="code">
+                    <pre>
+                        <code class="html">
+    &lt;button class="btn btn-icon">
+            &lt;img src="../../Assets/svg/print-btn.svg"/&gt;
+            print 
+    &lt;/button&gt;
+
+    &lt;button class="btn btn-float">
+            &lt;img src="../../Assets/svg/plus-btn.svg"/&gt; 
+    &lt;/button&gt;
+                        </code>
+                    </pre>
+                </section>
+             </section>
+
+           </section>
+
+      </section>
+        <script>hljs.highlightAll();</script>
+</body>
+</html>
