@@ -3,10 +3,6 @@
 @import url(../common-css/container.css);
 @import url(../../style.css);
 
-body{
-    background-color: var(--secondary);
-    margin: 0;   
-}
 .alert{
     width: 90%;
     color: var(--font-secondary);
