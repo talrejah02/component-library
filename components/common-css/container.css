@@ -2,24 +2,25 @@
 
 .component {
     display: flex;
-    height: 90vh;
-
+    height: 91vh;
+    
 }
 
 .preview-container {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 69%;
+    width: 80% ;
     padding: 1rem;
     border-radius: 10px;
     background-color: var(--card-bg);
     margin: 1rem;
     box-shadow: var(--box-shadow);
 }
-
-.doc-container {
-    padding: 3rem;
+.doc-container{
+    padding: 1rem;
+    padding-top: 0.5rem;
     width: 100%;
     overflow-y:auto;
 }
@@ -50,21 +51,21 @@
 .code pre {
     height: 100%;
     width: 100%;
-    margin: 0;
+    margin:0;
+    overflow: hidden;
+   
 }
+code{
+margin: 1rem;
+margin-top: 0;
+margin-bottom: 0;
+background-color: var(--primary);
+font-size: 0.8rem;
+letter-spacing: 1px;
+line-height: 1.2rem;
+border-radius: 7px;
+width: 70%;
 
-code {
-    margin: 1rem;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: var(--primary);
-    font-size: 0.8rem;
-    border-radius: 7px;
-    width: 70%;
-}
-
-.hljs {
-    padding-left: 1rem;
 }
 
 .description-list {
