@@ -1,0 +1,73 @@
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+
+.snackbar{
+    visibility: hidden;
+    display: flex;
+    max-width: fit-content;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary);
+    color: var(--font-secondary);
+    gap: 1em;
+    border-radius: 4px;
+    padding: 0.7rem 1rem 0.7rem 1rem;
+    font-size: 0.9rem;
+    position: fixed;
+    bottom: 30px;
+    left: 35%;
+    
+}
+.show{
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s,fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+  
+@keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+}
+
+@-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+  
+@keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+}
+.snackbar-btn{
+ padding: 0.2rem;
+ background-color: transparent;
+ color: var(--accent);
+ border: none;
+}
+.snackbar-btn-cross{
+    background-color: transparent;
+    color: var(--font-secondary);
+    border:none;
+    border-radius: 50%;
+}
+
+
+.snackbar-btn-cross:hover{
+  background-color: var(--btn-hover);
+}
+.snackbar-btn:hover{
+    border-radius: 5px;
+    background-color: var(--btn-hover);
+  }
+.btn-primary{
+    margin: 0;
+    font-size: 1rem;
+    font-weight: 400;
+}
