@@ -2,22 +2,21 @@
 
 <p align="center">A Component Library</p>
 
+# Preview
+
+[![image](https://user-images.githubusercontent.com/71214191/155065731-39968a32-af69-4fe9-8a5d-59a7a1273e02.png)](https://droid-ui.netlify.app/)
+
 ---
 
 ## Installation Guide
 
-You can use the Droid-ui library by adding our stylesheet to your website. To get started add the following `link` element in your `head` element of the HTML file.
-You can also import a single component without importing all of them.
-
-```html
-<link rel="stylesheet" href="https://droid-ui.netlify.app/style.css" />
-```
+You can use the Droid-ui library by adding our stylesheet to your website. To get started go through our docs and import a single component without importing all of them at once.
 
 Visit [docs](https://droid-ui.netlify.app) to learn more.
 
 ---
 
-## Components Hydrogen Provides
+## Droid Ui Provides
 
 - [Avatar](https://droid-ui.netlify.app/components/avatar/avatar.html)
 
@@ -70,7 +69,7 @@ Visit [docs](https://droid-ui.netlify.app) to learn more.
 
   - Simple snackbar
 
-- [Typography](https://hydrogen-ui.netlify.app/docs/typography.html)
+- [Typography](https://droid-ui.netlify.app/components/typography/typography.html)
 
   - Headings
   - Text utility classes
