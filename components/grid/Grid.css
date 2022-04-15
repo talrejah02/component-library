@@ -1,0 +1,31 @@
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+
+.grid {
+    display: grid;
+    gap: 0.2rem;
+    width: 100%;
+}
+
+.grid-item {
+    padding: 0.5rem;
+    background-color: var(--secondary);
+}
+
+.grid-item img {
+    width: 100%;
+}
+
+.grid-two-col {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-three-col {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-four-col {
+    grid-template-columns: repeat(4, 1fr);
+}
