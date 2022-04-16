@@ -1,0 +1,14 @@
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+
+.rating{
+    display: flex;
+    align-items: center;
+    
+}
+.rating-value{
+    margin: 1rem;
+    font-size: 1.1rem;
+}
