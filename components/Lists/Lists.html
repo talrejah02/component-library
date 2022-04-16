@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Documentation</title>
-    <link rel="stylesheet" href="image.css">
+    <link rel="stylesheet" href="Lists.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
@@ -45,14 +45,12 @@
                     <a href="../navigation/navigation.html" class="list-item">Navigation</a>
                     <a href="../snackbar/snackbar.html" class="list-item">Snackbar</a> 
                     <a href="../Lists/Lists.html" class="list-item">Lists</a> 
-
                 </nav>
         </aside>
         <section class="doc-container">
             <section class="description-area">
-                <span class="description-heading">Image</span>
-                <span class="description">Responsive Image Components are used to dsiplay Images on websites, which are
-                    screen responsive. They expand upto the width of the container they are in.</span>
+                <span class="description-heading">Lists</span>
+                <span class="description">A list is a container that presents rows of data arranged in a single column.</span>
             </section>
             <section class="description-area">
                 <span class="description-heading">Importing</span>
@@ -61,70 +59,66 @@
             <section class="code">
                 <pre>
                     <code class="html">
-  &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/image/image.css"/&gt;
+  &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/Lists/Lists.css"/&gt;
                     </code>
                 </pre>
             </section>
             <section class="description-area">
-                <span class="description-heading">Square Image</span>
-                <ul class="description-list">
-                    <li class="description-list-item"><span class="inverted">img</span>: A image with default square
-                        shape</li>
-                </ul>
+                <span class="description-heading">Basic Lists</span>
             </section>
             <section class="preview-container">
-                <img src="../../Assets/images/avatar2.jpg" class="img" />
+                <ul class="spaced-list">
+                 <p class="list-head">Fruits</p>
+                 <li>ORANGE</li>
+                 <li>MANGO</li>
+                 <li>APPLE</li>
+                 <li>LITCHI</li>
+                </ul>
             </section>
             <section class="code">
                 <pre>
                     <code class="html">
-  &lt;img src="../../Assets/images/avatar2.jpg" class="img" /&gt;
+                        &lt;ul class="spaced-list"/&gt;
+                            &lt;p class="list-head"/&gt;Fruits&lt;/p/&gt;
+                            &lt;li/&gt;ORANGE&lt;/li&gt;
+                            &lt;li/&gt;MANGO&lt;/li&gt;
+                            &lt;li/&gt;APPLE&lt;/li&gt;
+                            &lt;li/&gt;LITCHI&lt;/li&gt;
+                           &lt;/ul/&gt;
+
                     </code>
                 </pre>
             </section>
             <section class="description-area">
-                <span class="description-heading">Round Image</span>
+                <span class="description-heading">Stacked List</span>
                 <ul class="description-list">
-                    <li class="description-list-item"><span class="inverted">img round</span>: A image with round shape
-                    </li>
+                    <li class="description-list-item">Stacked list are generally used to display notifications where each list item is stacked on top of each other.</li>
                 </ul>
             </section>
             <section class="preview-container">
-                <div>
-                    <img src="../../Assets/images/avatar2.jpg" class="img round" />
-                </div>
-
-            </section>
-            <section class="code">
-                <pre>
-                    <code class="html">
-   &lt;img src="../../Assets/images/avatar2.jpg" class="img round"/&gt;
-                    </code>
-                </pre>
-            </section>
-
-            <section class="description-area">
-                <span class="description-heading">Responsive Image</span>
-                <ul class="description-list">
-                    <li class="description-list-item"><span class="inverted">img responsive</span>:Full Width Image is
-                        the one that expands to cover the container it is present in.</li>
+                <ul class="stacked-list">
+                    <p class="list-head">NOTIFICATIONS</p>
+                    <li>Today is the day for Apple!</li>
+                    <li>You have 3 new invites.</li>
+                    <li>@user followed you</li>
+                    <li>Today is Riya's birthday</li>
                 </ul>
-                <span class="description">Note : Resize the browser window, to see the responsive property.</span>
-            </section>
-            <section class="preview-container">
-                <div>
-                    <img src="../../Assets/images/avatar2.jpg" class="img round responsive" />
-                </div>
 
             </section>
             <section class="code">
                 <pre>
                     <code class="html">
-   &lt;img src="../../Assets/images/avatar2.jpg" class="img round responsive"/&gt;
+                        &lt;ul class="stacked-list"&gt;
+                            &lt;p class="list-head"&gt;NOTIFICATIONS&lt;/p&gt;
+                            &lt;li&gt;Today is the day for Apple!&lt;/li&gt;
+                            &lt;li&gt;You have 3 new invites.&lt;/li&gt;
+                            &lt;li&gt;@user followed you&lt;/li&gt;
+                            &lt;li&gt;Today is Riya's birthday&lt;/li&gt;
+                        &lt;/ul&gt;
+                       
                     </code>
                 </pre>
             </section>
-
         </section>
 
     </section>
