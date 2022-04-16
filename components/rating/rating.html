@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="rating.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
+    <script src="https://use.fontawesome.com/f9281fa301.js"></script>
+</head>
+
+<body>
+    <!-- ---------------------nav-------------- -->
+    <nav class="nav">
+        <section class="header-logo">
+            <span class="heading">Droid-Ui</span>
+        </section>
+        <section class="nav-right">
+            <a href="../../index.html" class="nav-link">Home</a>
+            <a href="./components/Avatar/avatar.html" class="nav-link">Docs</a>
+            <a href="https://github.com/talrejah02/component-library" class="nav-link">Github</a>
+        </section>
+    </nav>
+    <!-- ---------------------main-------------- -->
+
+    <section class="component">
+        <!-- ---------------------drawer-------------- -->
+
+        <aside class="drawer">
+            <section class="drawer-header">
+                <span class="header-title">Get Started</span>
+                <!-- <span class="header-subtitle"></span> -->
+            </section>
+            <hr class="list-divider">
+            <section class="drawer-content">
+                <nav class="content-list">  
+                    <a href="../../index.html" class="list-item">Home</a>
+                    <a class="list-item" href="../typography/typography.html">Typography</a>
+                    <span class="header-subtitle">Components</span>
+                    <hr class="list-divider">
+                    <a href="../Avatar/avatar.html" class="list-item">Avatar</a>
+                    <a href="../Alert/alert.html" class="list-item">Alert</a>
+                    <a href="../Badge/badge.html" class="list-item">Badge</a>
+                    <a href="../Button/button.html" class="list-item">Button</a>
+                    <a href="../card/card.html" class="list-item">Card</a>
+                    <a href="../image/image.html" class="list-item">Image</a>
+                    <a href="../Input/Input.html" class="list-item">Input</a>
+                    <a href="../navigation/navigation.html" class="list-item">Navigation</a>
+                    <a href="../rating/rating.html" class="list-item">Ratings</a>
+                    <a href="../snackbar/snackbar.html" class="list-item">Snackbar</a> 
+
+                </nav>
+        </aside>
+        <!-- ---------------------description-------------- -->
+
+        <section class="doc-container">
+            <section class="description-area">
+                <span class="description-heading">Rating</span>
+                <span class="description">Rating component can be used to provide review or feedback in the form of stars.</span>
+            </section>
+
+            <section class="description-area">
+                <span class="description-heading">Importing</span>
+                <span class="description">Use classes by adding stylesheet using link below</span>
+                <section class="code">
+                    <pre>
+            <code class="html">
+   &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/rating/rating.css"/&gt;
+            </code>
+            </pre>
+                </section>
+            </section>
+            <section class="description-area">
+                <span class="description-heading">Star Ratings</span>
+                <span class="description"> Demo is given below.</span>
+            </section>
+            <section class="preview-container ">
+                <div class="rating">
+                    <div class="rating-star">
+                      <i class="fa fa-star fa-2x"></i>
+                      <i class="fa fa-star fa-2x"></i>
+                      <i class="fa fa-star fa-2x"></i>
+                      <i class="fa fa-star-o fa-2x"></i>
+                      <i class="fa fa-star-o fa-2x"></i>
+                    </div>
+                    <div class="rating-value">3 / 5</div>
+                </div>
+            </section>
+
+            <section class="code">
+                <pre>
+            <code class="html">
+                
+                &lt;div class="rating"&gt;
+                    &lt;div class="rating-star"&gt;
+                      &lt;i class="fa fa-star fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star-o fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star-o fa-2x"&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rating-value"&gt;3 / 5&lt;/div&gt;
+                &lt;/div&gt;
+            </code>
+        </pre>
+            </section>
+
+
+
+
+        </section>
+        <script>
+            hljs.highlightAll();
+        </script>
+</body>
+
+</html>
