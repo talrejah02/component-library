@@ -1,0 +1,44 @@
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+@import url(../Button/button.css);
+
+.modal-wrapper{
+    position: fixed;
+    display: none;
+    top: 0;
+    left: 0;
+    background-color: var(--bg-color-opacity);
+    width: 100vw;
+    height: 100vh;
+}
+.modal-dialog{
+    position: fixed;
+    top: 15rem;
+    left: 30rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 0.3rem;
+    padding: 1rem;
+    min-width: 20rem;
+    background-color: var(--card-bg);
+    box-shadow: var( --box-shadow);
+    z-index: 9999;
+}
+.modal-header{
+  padding: 0.5rem;
+}
+.modal-body{
+    padding: 0.5rem;
+}
+.modal-footer{
+    padding: 0.5rem;
+    display: flex;
+    justify-content: flex-end;
+}
+.modal-footer button{
+    margin: 0.3rem;
+    padding: 0.5rem 1rem;
+}
