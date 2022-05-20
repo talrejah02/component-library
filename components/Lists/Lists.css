@@ -1,0 +1,30 @@
+@import url(../../docs-css/reset.css);
+@import url(../common-css/drawer.css);
+@import url(../common-css/container.css);
+@import url(../../style.css);
+
+.spaced-list li{
+ margin: 0.5rem;
+}
+.list-head{
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+.stacked-list{
+    border: 1px solid var(--primary);
+    padding: 0;
+}
+.stacked-list li{
+    padding: 1rem;  
+    list-style: none; 
+}
+.stacked-list li:hover{
+    cursor: pointer;
+    background-color: var( --secondary-hover);
+}
+.stacked-list p{
+ background-color: var(--primary);
+ color: var(--font-secondary);
+ font-weight: 400;
+}

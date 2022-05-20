@@ -5,8 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Input</title>
-    <link rel="stylesheet" href="input.css">
+    <title>Documentation</title>
+    <link rel="stylesheet" href="Lists.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
@@ -27,7 +27,6 @@
         <aside class="drawer">
             <section class="drawer-header">
                 <span class="header-title">Get Started</span>
-                <!-- <span class="header-subtitle"></span> -->
             </section>
             <hr class="list-divider">
             <section class="drawer-content">
@@ -54,9 +53,8 @@
         </aside>
         <section class="doc-container">
             <section class="description-area">
-                <span class="description-heading">Input</span>
-                <span class="description">Inputs are necessary for user interaction with the website. Inputs are used to
-                    take information from the user, and then save the data to the server, accordingly.</span>
+                <span class="description-heading">Lists</span>
+                <span class="description">A list is a container that presents rows of data arranged in a single column.</span>
             </section>
             <section class="description-area">
                 <span class="description-heading">Importing</span>
@@ -65,85 +63,66 @@
             <section class="code">
                 <pre>
                     <code class="html">
-  &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/input/input.css"/&gt;
+  &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/Lists/Lists.css"/&gt;
                     </code>
                 </pre>
             </section>
             <section class="description-area">
-                <span class="description-heading">Simple input</span>
-                <ul class="description-list">
-                    <li class="description-list-item"><span class="inverted">input</span>: A input default with default
-                        color</li>
-                    <li class="description-list-item"><span class="inverted">input-success</span>: A input with success
-                        state</li>
-                    <li class="description-list-item"><span class="inverted">input-warning</span>: A input with warning
-                        state</li>
-                    <li class="description-list-item"><span class="inverted">input-danger</span>: A input with danger
-                        state</li>
-                </ul>
+                <span class="description-heading">Basic Lists</span>
             </section>
             <section class="preview-container">
-                <input class="input" type="text" placeholder="primary" />
-                <input class="input input-success" type="text" placeholder="success" />
-                <input class="input input-warning" type="text" placeholder="warning" />
-                <input class="input input-danger" type="text" placeholder="danger" />
+                <ul class="spaced-list">
+                 <p class="list-head">Fruits</p>
+                 <li>ORANGE</li>
+                 <li>MANGO</li>
+                 <li>APPLE</li>
+                 <li>LITCHI</li>
+                </ul>
             </section>
             <section class="code">
                 <pre>
                     <code class="html">
-  &lt;input class="input" type="text" placeholder="primary"/&gt;
-  &lt;input class="input input-success" type="text" placeholder="success"/&gt;
-  &lt;input class="input input-warning" type="text" placeholder="warning"/&gt;
-  &lt;input class="input input-danger" type="text" placeholder="danger"/&gt;
+                        &lt;ul class="spaced-list"/&gt;
+                            &lt;p class="list-head"/&gt;Fruits&lt;/p/&gt;
+                            &lt;li/&gt;ORANGE&lt;/li&gt;
+                            &lt;li/&gt;MANGO&lt;/li&gt;
+                            &lt;li/&gt;APPLE&lt;/li&gt;
+                            &lt;li/&gt;LITCHI&lt;/li&gt;
+                           &lt;/ul/&gt;
+
                     </code>
                 </pre>
             </section>
             <section class="description-area">
-                <span class="description-heading">Inline validation input</span>
+                <span class="description-heading">Stacked List</span>
                 <ul class="description-list">
-                    <li class="description-list-item"><span class="inverted">inline-success</span>: for success message
-                    </li>
-                    <li class="description-list-item"><span class="inverted">inline-warning</span>: Used for warning
-                        response</li>
-                    <li class="description-list-item"><span class="inverted">inline-danger</span>: Used for error
-                        response</li>
+                    <li class="description-list-item">Stacked list are generally used to display notifications where each list item is stacked on top of each other.</li>
                 </ul>
             </section>
             <section class="preview-container">
-                <section class="inline-wrapper">
-                    <input class="input input-success" type="text" />
-                    <span class="inline inline-success">Looks good</span>
-                </section>
-                <section class="inline-wrapper">
-                    <input class="input input-warning" type="text" />
-                    <span class="inline inline-warning">password doesn't looks strong</span>
-                </section>
-                <section class="inline-wrapper">
-                    <input class="input input-danger" type="text" />
-                    <span class="inline inline-danger">Incorrect password</span>
-                </section>
+                <ul class="stacked-list">
+                    <p class="list-head">NOTIFICATIONS</p>
+                    <li>Today is the day for Apple!</li>
+                    <li>You have 3 new invites.</li>
+                    <li>@user followed you</li>
+                    <li>Today is Riya's birthday</li>
+                </ul>
+
             </section>
             <section class="code">
                 <pre>
                     <code class="html">
-  &lt;section class="inline-wrapper">                      
-  &lt;input class="input input-success" type="text" /&gt;
-   &lt;span class="inline inline-success">Looks good&lt;/span&gt;
-  &lt;/section&gt;
-
-  &lt;section class="inline-wrapper">                      
-  &lt;input class="input input-warning" type="text" /&gt;
-   &lt;span class="inline inline-warning">password doesn't looks strong&lt;/span&gt;
-  &lt;/section&gt;
-
-  &lt;section class="inline-wrapper">                      
-  &lt;input class="input input-danger" type="text" /&gt;
-   &lt;span class="inline inline-danger">Incorrect password&lt;/span&gt;
-  &lt;/section&gt;
+                        &lt;ul class="stacked-list"&gt;
+                            &lt;p class="list-head"&gt;NOTIFICATIONS&lt;/p&gt;
+                            &lt;li&gt;Today is the day for Apple!&lt;/li&gt;
+                            &lt;li&gt;You have 3 new invites.&lt;/li&gt;
+                            &lt;li&gt;@user followed you&lt;/li&gt;
+                            &lt;li&gt;Today is Riya's birthday&lt;/li&gt;
+                        &lt;/ul&gt;
+                       
                     </code>
                 </pre>
             </section>
-
         </section>
 
     </section>

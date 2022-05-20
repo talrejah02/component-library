@@ -6,10 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="snackbar.css">
+    <link rel="stylesheet" href="rating.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/styles/vs2015.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/highlight.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.7.1/languages/go.min.js"></script>
+    <script src="https://use.fontawesome.com/f9281fa301.js"></script>
 </head>
 
 <body>
@@ -61,8 +62,8 @@
 
         <section class="doc-container">
             <section class="description-area">
-                <span class="description-heading">Snackbar</span>
-                <span class="description">Snackbar informs user about the process that happend on a screen interaction</span>
+                <span class="description-heading">Rating</span>
+                <span class="description">Rating component can be used to provide review or feedback in the form of stars.</span>
             </section>
 
             <section class="description-area">
@@ -71,46 +72,53 @@
                 <section class="code">
                     <pre>
             <code class="html">
-   &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/snackbarsnackbar.css"/&gt;
+   &lt;link rel="stylesheet" href="https://droid-ui.netlify.app/components/rating/rating.css"/&gt;
             </code>
             </pre>
                 </section>
             </section>
             <section class="description-area">
-                <ul class="description-list">
-                    <li class="description-list-item"><span class="inverted">Click on the show button to see demo</li>
-                </ul>
-                <section class="preview-container ">
-                    <button class="btn-primary">Show snackbar</button>
-                    <section class="snackbar">
-                        <span>Can't sent a photo. Retry in 5 seconds.</span>
-                        <button class="snackbar-btn">Retry</button>
-                        <button class="snackbar-btn-cross">x</button>
+                <span class="description-heading">Star Ratings</span>
+                <span class="description"> Demo is given below.</span>
+            </section>
+            <section class="preview-container ">
+                <div class="rating">
+                    <div class="rating-star">
+                      <i class="fa fa-star fa-2x"></i>
+                      <i class="fa fa-star fa-2x"></i>
+                      <i class="fa fa-star fa-2x"></i>
+                      <i class="fa fa-star-o fa-2x"></i>
+                      <i class="fa fa-star-o fa-2x"></i>
+                    </div>
+                    <div class="rating-value">3 / 5</div>
+                </div>
+            </section>
 
-                        </section>
-                </section>
-
-                <section class="code">
-                    <pre>
+            <section class="code">
+                <pre>
             <code class="html">
-
-&lt;section class="snackbar">
-    &lt;span&gt;Can't sent a photo. Retry in 5 seconds.&lt;/span&gt;
-    &lt;button class="snackbar-btn"&gt;Retry&lt;/button&gt;
-    &lt;button class="snackbar-btn-cross"&gt;x&lt;/button&gt;
-&lt;/section&gt;
-
+                
+                &lt;div class="rating"&gt;
+                    &lt;div class="rating-star"&gt;
+                      &lt;i class="fa fa-star fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star-o fa-2x"&gt;&lt;/i&gt;
+                      &lt;i class="fa fa-star-o fa-2x"&gt;&lt;/i&gt;
+                    &lt;/div&gt;
+                    &lt;div class="rating-value"&gt;3 / 5&lt;/div&gt;
+                &lt;/div&gt;
             </code>
         </pre>
-                </section>
-
             </section>
-        </section>
 
+
+
+
+        </section>
         <script>
             hljs.highlightAll();
         </script>
-    <script src="./snackbar.js" type="text/javascript"></script>
 </body>
 
 </html>

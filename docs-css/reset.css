@@ -24,6 +24,7 @@
     --badge-online:green;
     --badge-offline:red;
     --badge-dnd:grey;
+    --bg-color-opacity:#80808070;
   }
 
 a{
